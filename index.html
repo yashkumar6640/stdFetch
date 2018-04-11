@@ -19,91 +19,102 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.3.1/cjs/react.development.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.3.1/cjs/react-dom-server.browser.development.js"></script>
-  <link rel="stylesheet" href="./button.css">
+  <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="heading text-center text-info">
+    <h1>StdFetch API</h1>
+  </div>
+  <nav class="col-sm-2 navbar  bg-light navbar-light">
 
-    <!-- Links -->
-    <ul class="navbar-nav">
+    <ul class="navbar-nav flex-column">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link 1</a>
+        <a class="nav-link" href="/Buttons/buttons.html">Test documentation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link 2</a>
+        <a class="nav-link" href="#">Request Basics</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link 3</a>
+        <a class="nav-link" href="#">Setting header fields</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GET Requests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">POST/PUT requests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Setting the Content-Type</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Serializing request body</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Retrying requests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Setting Accept</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Query strings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">TLS options</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Parsing response bodies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Response properties</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Aborting requests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Timeouts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Authentication</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Following redirects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Agents for global state</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Piping data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Multipart requests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Compression</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Buffering responses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CORS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Error handling</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Progress tracking</a>
+      </li>
+
     </ul>
 
   </nav>
-  <div class="col-sm-2"></div>
+  <!-- <div class="col-sm-2">Hello</div> -->
   <div class="col-sm-10 content">
 
-    <h1>#Buttons</h1>
 
-    <div class="center">
-      <br>
-      <button type="button" class="btn btn-primary">Primary</button>
-      <button type="button" class="btn btn-secondary">Secondary</button>
-    </div>
-    <br>
-    <h4>
-      index.html</h4>
-    </h4>
-    <pre>
-        <code>
-        <span class="html-tags">&ltbutton</span> <span class="attributes">type</span>=<span class="attribute-values">"button"</span> <span class="attributes">class</span>=<span class="attribute-values">"btn btn-primary"</span><span class="html-tags">&gt</span>Primary<span class="html-tags">&lt/button&gt</span>
-        
-        <span class="html-tags">&ltbutton</span> <span class="attributes">type</span>=<span class="attribute-values">"button"</span> <span class="attributes">class</span>=<span class="attribute-values">"btn btn-secondary"</span><span class="html-tags">&gt</span>Secondary<span class="html-tags">&lt/button&gt</span>
-        </code>
-        </pre>
-    <br>
-    <h4>
-      index.js
-    </h4>
-    <pre class="data-type">
-        <code> 
-        var app = angular.module('myapp', []);
-      
-        app.controller('mainController', function($scope){
-          $scope.title = "Paste the required classes in your project with given CSS"
-        })
-      </code>
-      </pre>
-    <br>
-    <h4>
-      main.css
-    </h4>
-    <pre class="css">
-      
-        .btn {
-          border: none;
-          border-radius: 0;
-        }
-      
-        .btn-primary {
-          background-color: #1e74aa;
-          border: #979797;
-          padding: 7px 30px;
-        }
-      
-        .btn-secondary {
-          background: white;
-          color: black;
-          border: gray;
-          border: 1px solid gray;
-        }
-       
-                          
-      </pre>
 
   </div>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-    ...
-  </nav>
+
 </body>
 
 </html>

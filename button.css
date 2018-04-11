@@ -1,0 +1,56 @@
+.btn{
+  border:none; 
+  border-radius: 0;
+ }
+
+ .btn-primary{
+   background-color: #1e74aa;
+   border: #979797;
+   padding:7px 30px;
+ }
+
+ .btn-secondary{
+   background: white;
+   color: black;
+   border: gray;
+   border: 1px solid gray;
+ }
+
+ pre{
+   background-color:#1b2b34;
+   color: white;
+   border-radius: 10px;
+ }
+ .col-sm-10.content{
+   float:right;
+   margin-bottom:60px;
+ }
+
+ .center{
+   margin:0 auto;
+   width: 50%;
+
+ }
+ 
+ .html-tags{
+   color: #ff4f68;
+ }
+ .attributes{
+   color: #f8b068;
+ }
+ .attribute-values{
+   color: #f5eea2;
+ }
+ .selector{
+   color:#f8b068;
+ }
+ .selector-keys{
+   color: #6ce890
+ }
+ .css{
+    color:#f8b068;
+   
+ }
+ .data-type{
+   color: #f5eea2;
+ }

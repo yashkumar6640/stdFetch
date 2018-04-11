@@ -1,23 +1,23 @@
 <h4>POST</h4>
 
 <pre>
-    <code>
-      var options = {
-        body: {
-          title: 'foo',
-          body: 'bar',
-          userId: 1
-        },
-        headers: {
-          "Content-type": "application/json; charset=UTF-8"
-        }
+  <code>
+    var options = {
+      body: {
+        title: 'foo',
+        body: 'bar',
+        userId: 1
+      },
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
       }
+    }
     
-      stdFetch.post("https://jsonplaceholder.typicode.com/posts", options)
-      .then(resp=>{
-        console.log(resp)
-      })
-    </code>
+    stdFetch.post("https://jsonplaceholder.typicode.com/posts", options)
+    .then(resp=>{
+      console.log(resp)
+    })
+  </code>
 
 /* will return
 {
@@ -28,34 +28,3 @@
 }
 */
     </pre>
-
-
-<h4>PUT</h4>
-
-<pre>
-        <code>
-          var options = {
-            body: {
-              title: 'foo',
-              body: 'bar',
-              userId: 1
-            },
-            headers: {
-              "Content-type": "application/json; charset=UTF-8"
-            }
-          }
-        
-          stdFetch.post("https://jsonplaceholder.typicode.com/posts", options)
-          .then(resp=>{
-            console.log(resp)
-          })
-        </code>
-/* will return
-{
-  id: 1,
-  title: 'foo',
-  body: 'bar',
-  userId: 1
-}
-*/
-        </pre>

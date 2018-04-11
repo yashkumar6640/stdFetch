@@ -1,0 +1,26 @@
+<h4>PATCH</h4>
+
+<pre>
+  <code>
+    var options = {           
+        body: {
+          title: 'foo'
+        },
+        headers: {
+          "Content-type": "application/json; charset=UTF-8"
+        }
+      }
+    
+      stdFetch.patch('https://jsonplaceholder.typicode.com/posts/1', options)      
+      .then(json => console.log(json))
+       
+  </code>
+  /* will return
+    {
+      id: 1,
+      title: 'foo',
+      body: 'quia et suscipit [...]',
+      userId: 1
+    }
+    */
+</pre>

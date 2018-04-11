@@ -33,16 +33,16 @@
         <a class="nav-link" data-standard-component="test_documentation" href="javascript:;">Test documentation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Request Basics</a>
+        <a class="nav-link" data-standard-component="request_basics" href="javascript:;">Request Basics</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Setting header fields</a>
+        <a class="nav-link" data-standard-component="setting_headers" href="javascript:;">Setting header fields</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">GET Requests</a>
+        <a class="nav-link" data-standard-component="GET_request" href="javascript:;">GET Requests</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">POST/PUT requests</a>
+        <a class="nav-link" data-standard-component="POST_PUT_request" href="javascript:;">POST/PUT requests</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Setting the Content-Type</a>
@@ -110,7 +110,37 @@
   </nav>
   <!-- <div class="col-sm-2">Hello</div> -->
   <div class="col-sm-10 content" standard-view>
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/website-api-flow.png" alt="Los Angeles">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/website-api-flow.png" alt="Chicago">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/website-api-flow.png" alt="New York">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
 
 
   </div>

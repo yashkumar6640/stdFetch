@@ -1,0 +1,32 @@
+<h3>Request Basics</h3>
+
+<pre>
+  
+  A request can be initiated by invoking the appropriate method on stdFetch object, like
+  
+  stdFetch.get() 
+  stdFetch.post 
+  stdFetch.put()
+  stdFetch.patch()
+
+  </pre>
+<pre>
+
+  then calling .then() to process the data received in response. You can work with data such as
+
+   json()
+   blob()
+   formData()
+   text()
+
+</pre>
+<pre>
+  Basic Example:
+  <code>
+    stdFetch.get("https://jsonplaceholder.typicode.com/posts/1")
+    .then(response => {
+      // res.body, res.headers, res.status
+      console.log(response);
+    })
+  </code>
+</pre>

@@ -15,11 +15,18 @@
    border: gray;
    border: 1px solid gray;
  }
-
+.heading{
+  height:20vh;
+  background: #212529;
+}
  pre{
    background-color:#1b2b34;
    color: white;
    border-radius: 10px;
+ }
+
+ .col-sm-2.navbar{
+   float:left;
  }
  .col-sm-10.content{
    float:right;
